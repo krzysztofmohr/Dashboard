@@ -6,8 +6,8 @@ import {Component, Input } from '@angular/core';
   styleUrls: ['./metric.component.css']
 })
 export class MetricComponent {
-  @Input() title: string; // don't forget to sanitize
-  @Input() description: string;
+  // @Input() title: string; // don't forget to sanitize
+  // @Input() description: string;
   private _value: number = 0;
   private _max: number = 100;
 
