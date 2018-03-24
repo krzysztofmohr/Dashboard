@@ -33,7 +33,7 @@ export class MetricComponent implements OnChanges, OnInit, DoCheck{
   }
 
   ngDoCheck(): void {
-    
+
   }
 
   ngOnChanges(changes: any): void {
